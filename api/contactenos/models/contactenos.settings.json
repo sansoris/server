@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contactenos",
+  "info": {
+    "name": "Contactenos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "Telefono": {
+      "type": "string",
+      "required": true
+    },
+    "Email": {
+      "type": "email",
+      "required": true
+    },
+    "Comentario": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

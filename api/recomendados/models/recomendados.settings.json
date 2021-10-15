@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "Recomendados",
+  "info": {
+    "name": "Recomendados"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "Apellido": {
+      "type": "string",
+      "required": true
+    },
+    "Telefono": {
+      "type": "string",
+      "required": false
+    },
+    "Ciudad": {
+      "type": "string",
+      "required": true
+    },
+    "Servicios": {
+      "type": "enumeration",
+      "enum": [
+        "Plomeria",
+        "Electricidad",
+        "Cerrajeria",
+        "Gasodomesticos",
+        "Carpinteria",
+        "Electronicos",
+        "Pintura",
+        "Mecanica",
+        "Albanileria"
+      ],
+      "required": true
+    }
+  }
+}

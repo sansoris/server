@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/recomendados",
+      "handler": "recomendados.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/recomendados/count",
+      "handler": "recomendados.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/recomendados/:id",
+      "handler": "recomendados.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/recomendados",
+      "handler": "recomendados.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/recomendados/:id",
+      "handler": "recomendados.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/recomendados/:id",
+      "handler": "recomendados.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
